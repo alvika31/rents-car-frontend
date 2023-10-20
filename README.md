@@ -12,11 +12,18 @@
 2. After successful registration, enter the login page http://localhost:3000/login, then enter the username and password that was registered earlier.
 3. Ordering a car can already be done.
 
-### Implementation of car booking validation by date
+### Implementation of car booking validation by date:
 1. Log in first at the url http://localhost:3000/login
 2. Book a car that is available on the main page http://localhost:3000/, then it will be directed to the example url: http://localhost:3000/sewa-mobil/daihatsu-xenia.
 3. After that, in the Length of Lease section, if the person has booked on the specified date and the person books again on the same date or within the period of time the person booked the car, the car booking fails.
 
+### Account:
+1. Admin: http://localhost:3000/login/admin
+Username: alvika
+Password: alvika123
+2. Customer: http://localhost:3000/login
+Username: alvika
+Password: alvika123
 
 ### Note:
 1. For car rental data, it has been entered into the sewa table according to the given date case study, to be able to start from scratch, please delete all data in the sewa table first.
